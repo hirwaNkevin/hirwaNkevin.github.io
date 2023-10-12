@@ -80,7 +80,21 @@ header {
     font-size: 4rem;
 }
 
-h1 {
-    font-weight: 600;
+#intro {
+    padding: 1em;
 }
 
+h1 {
+    font-weight: 600;
+    color: #303030;
+}
+
+h1>strong {
+    font-weight: 1500;
+    color: #000;
+}
+
+h1> span {
+    color: var(--primary-color);
+    text-transform: capitalize;
+}
