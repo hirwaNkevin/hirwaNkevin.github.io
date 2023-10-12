@@ -41,3 +41,46 @@ img {
 a {
     text-decoration: none;
 }
+
+header {
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: 1fr 0px 50px;
+    padding-left: 1em;
+}
+
+#logo {
+    font-family: "LeagueSpartan", sans-serif;
+    color: initial;
+    font-weight: bold;
+}
+
+#logo_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: none;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    color: #000;
+    font-weight: 900;
+}
+
+#menu_toggler {
+    text-align: center;
+}
+
+#menu_toggler span {
+    width: 100%;
+    display: block;
+    font-size: 4rem;
+}
+
+h1 {
+    font-weight: 600;
+}
+
