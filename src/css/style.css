@@ -84,6 +84,19 @@ header {
     padding: 1em;
 }
 
+#img-blob {
+    background-color: #005dd7;
+    height: 200px;
+    overflow: hidden;
+    animation: shapeShift 10s 0s ease infinite;
+    box-shadow: 0 10px 20px 2px #005dd797;
+}
+
+#img-blob img {
+    margin: auto;
+    margin-top: -3em;
+}
+
 h1 {
     font-weight: 600;
     color: #303030;
@@ -97,4 +110,28 @@ h1>strong {
 h1> span {
     color: var(--primary-color);
     text-transform: capitalize;
+}
+
+
+@keyframes shapeShift {
+    to,from  {
+        border-top-right-radius: 90%;
+        border-bottom-right-radius: 90%;
+        border-bottom-left-radius: 80%;
+        border-top-left-radius: 70%;
+    }
+
+    20% {
+        border-top-right-radius: 90%;
+        border-bottom-right-radius: 70%;
+        border-bottom-left-radius: 90%;
+        border-top-left-radius: 70%;
+    }
+
+    40% {
+        border-top-right-radius: 70%;
+        border-bottom-right-radius: 80%;
+        border-bottom-left-radius: 70%;
+        border-top-left-radius: 70%;
+    }
 }
