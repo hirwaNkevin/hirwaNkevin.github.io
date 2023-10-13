@@ -227,6 +227,34 @@ h1> span {
     color: #fff !important;
 }
 
+/* Hire me */
+
+/* #hire-me  */
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.socials a {
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+
+.socials-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 1em auto;
+}
+
+.resume {
+    color: var(--primary-color);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
 @keyframes shapeShift {
     to,from  {
         border-top-right-radius: 90%;
