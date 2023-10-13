@@ -48,10 +48,18 @@ h2 {
     font-weight: 900;
 }
 
-header {
-    margin-bottom: 2em;
-    display: grid;
-    grid-template-columns: 1fr 0px 50px;
+.container {
+    width: 89%;
+    margin: auto;
+}
+
+#header-content {
+    margin-bottom: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
 }
 
 #logo {
@@ -77,6 +85,7 @@ header {
 
 #menu_toggler {
     text-align: center;
+    width: fit-content;
 }
 
 #menu_toggler span {
