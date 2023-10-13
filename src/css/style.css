@@ -267,6 +267,12 @@ footer h2 {
     text-align: center;
 }
 
+/* Responsiveness */
+
+@media screen and (min-width: 30rem) {
+    
+}
+
 @keyframes shapeShift {
     to,from  {
         border-top-right-radius: 90%;
