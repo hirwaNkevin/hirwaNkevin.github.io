@@ -52,7 +52,6 @@ header {
     margin-bottom: 2em;
     display: grid;
     grid-template-columns: 1fr 0px 50px;
-    padding-left: 1em;
 }
 
 #logo {
@@ -86,9 +85,7 @@ header {
     font-size: 4rem;
 }
 
-#intro {
-    padding: 1em;
-}
+/* #intro */
 
 #img-blob {
     background-color: #005dd7;
@@ -122,7 +119,6 @@ h1> span {
 #background {
     display: flex;
     flex-flow: row wrap;
-    margin: 1em;
 }
 
 #background > img {
