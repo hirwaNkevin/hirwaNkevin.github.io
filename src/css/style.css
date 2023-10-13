@@ -94,11 +94,17 @@ h2 {
     font-size: 4rem;
 }
 
-/* #intro */
+#intro {
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
 
 #img-blob {
     background-color: #005dd7;
     height: 200px;
+    width: 250px;
     overflow: hidden;
     animation: shapeShift 10s 0s ease infinite;
     box-shadow: 0 10px 20px 2px #005dd797;
