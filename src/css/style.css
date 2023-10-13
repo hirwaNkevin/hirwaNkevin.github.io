@@ -126,6 +126,8 @@ h1> span {
     text-transform: capitalize;
 }
 
+/* Background */
+
 #background {
     display: flex;
     flex-flow: row wrap;
@@ -142,6 +144,18 @@ h1> span {
 #background-content h2 {
     margin: 0;
     margin-bottom: .5em;
+}
+
+/* Skills */
+
+#skills h2 {
+    margin-bottom: .5em;
+}
+
+#skillsets {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1em;
 }
 
 @keyframes shapeShift {
