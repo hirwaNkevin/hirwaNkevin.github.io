@@ -283,6 +283,7 @@ footer h2 {
 
     .tech-code {
         /* TODO: Fix tech-code wrapping problem */
+        border: none;
     }
 }
 
