@@ -46,6 +46,7 @@ h2 {
     text-transform: uppercase;
     color: var(--primary-color);
     font-weight: 900;
+    margin: 1em auto;
 }
 
 .container {
@@ -147,16 +148,11 @@ h1> span {
     margin: 1em auto;
 }
 
-#background-content h2 {
-    margin: 0;
-    margin-bottom: .5em;
-}
+/* #background-content h2  */
 
 /* Skills */
 
-#skills h2 {
-    margin-bottom: .5em;
-}
+/* #skills h2  */
 
 #skillsets {
     display: flex;
@@ -170,9 +166,8 @@ h1> span {
     margin: 1em auto;
 }
 
-#projects h2{
-    margin-bottom: 1em;
-}
+/* #projects h2 */
+
 
 .project {
     margin: 1em auto;
