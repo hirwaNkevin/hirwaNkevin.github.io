@@ -100,6 +100,7 @@ header {
 h1 {
     font-weight: 600;
     color: #303030;
+    margin-bottom: 1em;
 }
 
 h1>strong {
@@ -112,6 +113,24 @@ h1> span {
     text-transform: capitalize;
 }
 
+#background {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1em;
+}
+
+#background > img {
+    border-radius: .9em;
+}
+
+#background-content {
+    margin: 1em auto;
+}
+
+#background-content h2 {
+    margin: 0;
+    margin-bottom: .5em;
+}
 
 @keyframes shapeShift {
     to,from  {
