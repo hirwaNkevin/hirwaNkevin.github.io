@@ -270,7 +270,16 @@ footer h2 {
 /* Responsiveness */
 
 @media screen and (min-width: 30rem) {
-    
+
+    #projects-inner {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+        gap: 2em;
+    }
+
+    .project {
+        width: fit-content;
+    }
 }
 
 @keyframes shapeShift {
