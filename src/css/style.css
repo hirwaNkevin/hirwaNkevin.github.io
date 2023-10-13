@@ -280,6 +280,10 @@ footer h2 {
     .project {
         width: fit-content;
     }
+
+    .tech-code {
+        /* TODO: Fix tech-code wrapping problem */
+    }
 }
 
 @keyframes shapeShift {
