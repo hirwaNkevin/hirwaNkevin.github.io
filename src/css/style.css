@@ -300,6 +300,21 @@ footer h2 {
 
 @media screen and (min-width: 30rem) {
 
+    #header-content {
+        padding: 1em;
+    }
+
+    .nav-list {
+        position: unset;
+        display: flex;
+        align-items: center;
+        padding: unset;
+    }
+
+    #close, #menu_toggler {
+        display: none;
+    }
+
     #intro {
         flex-flow: row;
     }
