@@ -165,7 +165,7 @@ h1> span {
 
 #background {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column-reverse;
 }
 
 #background > img {
