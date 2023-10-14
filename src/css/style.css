@@ -295,13 +295,14 @@ footer h2 {
     text-align: center;
 }
 
-#background, #skills, #projects, #hire-me {
-    padding: 2em 0em;
-}
 
 /* Responsiveness */
 
 @media screen and (min-width: 30rem) {
+
+    #intro {
+        flex-flow: row;
+    }
 
     #projects-inner {
         display: grid;
@@ -312,7 +313,10 @@ footer h2 {
     .project {
         width: fit-content;
     }
-
+    
+    #background, #skills, #projects, #hire-me {
+        padding: 2em 0em;
+    }
 }
 
 @keyframes shapeShift {
