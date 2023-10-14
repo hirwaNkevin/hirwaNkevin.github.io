@@ -359,6 +359,16 @@ footer h2 {
         flex-flow: row;
         min-height: 50vh;
     }
+
+    #img-blob {
+        background-color: #005dd7;
+        height: calc(20em + .1vw);
+        width: calc(25em + .1vw);
+        overflow: hidden;
+        animation: shapeShift 10s 0s ease infinite;
+        box-shadow: 0 10px 20px 2px #005dd797;
+        margin-bottom: 2em;
+    }
 }
 
 @keyframes shapeShift {
