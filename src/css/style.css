@@ -82,10 +82,15 @@ h2 {
     left: -100%;
     top: 0;
     transition: .4s;
+    padding-top: 1em;
 }
 
 .nav-list.active {
     left: 0;
+}
+
+.nav-item {
+    padding: .5em 1em;
 }
 
 .nav-link {
