@@ -294,6 +294,10 @@ footer h2 {
     text-align: center;
 }
 
+#background, #skills, #projects, #hire-me {
+    padding: 2em 0em;
+}
+
 /* Responsiveness */
 
 @media screen and (min-width: 30rem) {
