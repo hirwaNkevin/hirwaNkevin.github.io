@@ -319,6 +319,20 @@ footer h2 {
         flex-flow: row;
     }
 
+    #background {
+        flex-flow: row;
+        align-items: unset;
+        gap: 2em;
+    }
+
+    #background > img {
+        width:  50%;
+    }
+
+    #background-content {
+        margin-top: -1.7em;
+    }
+
     #projects-inner {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
