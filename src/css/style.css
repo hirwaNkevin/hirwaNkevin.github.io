@@ -6,10 +6,12 @@
     font-family: "Roboto";
     src: url(/src/assets/Roboto-Light.ttf);
 }
+
 @font-face {
     font-family: "Montserrat";
     src: url(/src/assets/Montserrat-Light.ttf);
 }
+
 @font-face {
     font-family: "LeagueSpartan";
     src: url(/src/assets/LeagueSpartan-Regular.ttf);
@@ -65,9 +67,16 @@ h2 {
 }
 
 #logo {
+    display: flex;
+    align-items: center;
+    gap: 1em;
     font-family: "LeagueSpartan", sans-serif;
     color: initial;
     font-weight: bold;
+}
+
+#logo-img {
+    max-width: 3rem;
 }
 
 #logo_wrapper {
@@ -131,18 +140,21 @@ h2 {
 }
 
 #img-blob {
-    background-color: #005dd7;
+    /* background-color: #005dd7; */
+    background-color: #000;
     height: 200px;
     width: 250px;
     overflow: hidden;
     animation: shapeShift 10s 0s ease infinite;
-    box-shadow: 0 10px 20px 2px #005dd797;
+    /* box-shadow: 0 10px 20px 2px #005dd797; */
+    box-shadow: 0 10px 20px 2px #0000004d;
     margin-bottom: 2em;
 }
 
 #img-blob img {
     margin: auto;
     margin-top: -3em;
+    filter: grayscale(100%);
 }
 
 h1 {
@@ -156,7 +168,7 @@ h1>strong {
     color: #000;
 }
 
-h1> span {
+h1>span {
     color: var(--primary-color);
     text-transform: capitalize;
 }
@@ -168,8 +180,9 @@ h1> span {
     flex-flow: column-reverse;
 }
 
-#background > img {
+#background>img {
     border-radius: .9em;
+    filter: grayscale(100%);
 }
 
 #background-content {
@@ -186,6 +199,7 @@ h1> span {
     display: flex;
     flex-flow: row wrap;
     gap: 1em;
+    filter: grayscale(100%);
 }
 
 /* Projects */
@@ -205,8 +219,9 @@ h1> span {
     margin-bottom: 2em;
 }
 
-.project-img > img {
+.project-img>img {
     border-radius: 1.4rem;
+    filter: grayscale(100%);
 }
 
 .project-descrption h3 {
@@ -225,7 +240,7 @@ h1> span {
 }
 
 .technology {
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
     font-size: smaller;
     border: 1px solid;
     padding: .3em;
@@ -245,19 +260,27 @@ h1> span {
     padding: .5em;
     margin-top: .3em;
     border-radius: .5rem;
-    border: 1px solid var(--primary-color);
-    color: var(--primary-color);
+    /* border: 1px solid var(--primary-color); */
+    border: 1px solid #000;
+    /* color: var(--primary-color); */
+    color: initial;
     font-weight: bold;
 }
 
 .demo {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background-color: #000;
     color: #fff !important;
 }
 
 /* Hire me */
 
 /* #hire-me  */
+
+.email a {
+    text-decoration: underline;
+    color: initial;
+}
 
 .socials {
     display: flex;
@@ -266,7 +289,8 @@ h1> span {
 }
 
 .socials a {
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: initial;
     font-weight: bolder;
 }
 
@@ -278,7 +302,8 @@ h1> span {
 }
 
 .resume {
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: initial;
     font-weight: bolder;
     text-decoration: underline;
 }
@@ -293,6 +318,7 @@ footer h2 {
     font-size: 1.2rem;
     text-transform: unset;
     text-align: center;
+    color: initial;
 }
 
 
@@ -311,7 +337,8 @@ footer h2 {
         padding: unset;
     }
 
-    #close, #menu_toggler {
+    #close,
+    #menu_toggler {
         display: none;
     }
 
@@ -326,8 +353,8 @@ footer h2 {
         gap: 2em;
     }
 
-    #background > img {
-        width:  50%;
+    #background>img {
+        width: 50%;
     }
 
     #background-content {
@@ -336,15 +363,18 @@ footer h2 {
 
     #projects-inner {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
         gap: 2em;
     }
 
     .project {
         width: fit-content;
     }
-    
-    #background, #skills, #projects, #hire-me {
+
+    #background,
+    #skills,
+    #projects,
+    #hire-me {
         padding: 2em 0em;
     }
 }
@@ -361,18 +391,22 @@ footer h2 {
     }
 
     #img-blob {
-        background-color: #005dd7;
+        /* background-color: #005dd7; */
+        background-color: #000;
         height: calc(20em + .1vw);
         width: calc(25em + .1vw);
         overflow: hidden;
         animation: shapeShift 10s 0s ease infinite;
-        box-shadow: 0 10px 20px 2px #005dd797;
+        /* box-shadow: 0 10px 20px 2px #005dd797; */
+        box-shadow: 0 10px 20px 2px #0000004d;
         margin-bottom: 2em;
     }
 }
 
 @keyframes shapeShift {
-    to,from  {
+
+    to,
+    from {
         border-top-right-radius: 90%;
         border-bottom-right-radius: 90%;
         border-bottom-left-radius: 80%;
